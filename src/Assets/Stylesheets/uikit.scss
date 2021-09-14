@@ -1,0 +1,67 @@
+@import "../../Assets//Stylesheets/styleguide.scss";
+
+.small-button {
+  width: 100px;
+  height: 50px;
+  border-radius: 50px;
+  background: $third-gradient;
+  color: $white;
+  font-weight: bold;
+  cursor: pointer;
+  border: none;
+}
+
+.medium-button {
+  width: 200px;
+  height: 50px;
+  border-radius: 50px;
+  background: $fourth-gradient;
+  color: $white;
+  font-family: 'Overpass', sans-serif;
+  cursor: pointer;
+  border: none;
+  
+}
+
+.search-input {
+  height: 50px;
+  width: 250px;
+  border-radius: 50px;
+  font-size: 20px;
+  padding-left: 10px;
+  border: none;
+}
+
+.form-input {
+  background: transparent;
+  border: none;
+  border-bottom: $white 1px solid;
+  width: 300px;
+  height: 20px;
+  font-size: 20px;
+  color: $white;
+  padding: 0;
+  font-family: 'Overpass', sans-serif;
+  &::placeholder {
+  font-family: 'Overpass', sans-serif;
+    color: $white;
+  }
+}
+
+.submit-button {
+  width: 100px;
+  height: 50px;
+  border-radius: 50px;
+  background: $second-gradient;
+  color: $white;
+  font-weight: bold;
+  border: none;
+}
+
+
+.circular-button {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: none;
+}

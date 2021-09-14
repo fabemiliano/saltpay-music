@@ -1,0 +1,88 @@
+{
+  "title": "Your fellow music app",
+  "loading": "Loading",
+  "sidebar": {
+    "home": "Home",
+    "favourites": "Favourites",
+    "playlists": "Playlists",
+    "recent": "Recently Played",
+    "settings": "Settings"
+  },
+  "header": {
+    "signin": "Sign In",
+    "login": "Log In"
+  },
+  "home": {
+    "title": "Home",
+    "searchbar": "Search song or artist",
+    "show-more-button": "Show more"
+  },
+  "login": {
+    "title": "Login",
+    "email": "email",
+    "password": "password",
+    "submit": "Submit"
+  },
+  "signin": {
+    "title": "Sign In",
+    "email": "email",
+    "confirm-email": "confirm email",
+    "password": "password",
+    "confirm-password": "confirm password",
+    "password-hint": "must contain min. 6 characters including numbers and letters",
+    "submit": "Submit",
+    "date-of-birth": "Date of birth",
+    "create": "Create",
+    "subscribe-header": "Subscribe to Pro",
+    "subscribe-message": "With a Pro Subscription you can add songs to favourites and create playlists",
+    "subscribe-second-message": "If you hold a SaltPay credit card the Pro subcription is free",
+    "subscribe-button": "Subscribe",
+    "no-button": "No thanks",
+    "card-number": "Credit card number",
+    "cvv": "cvv",
+    "due-date": "Due date",
+    "thanks-message": "Thanks for Joining, have fun!",
+    "go-to-home": "Go to home"
+  },
+  "settings": {
+    "title": "Settings",
+    "choose-currency": "Choose currency",
+    "choose-language": "Choose language",
+    "sign-out": "Sign out",
+    "currency-selected": "Currency selected"
+  },
+  "details": {
+    "song": "Song",
+    "artist": "Artist",
+    "genre": "Genre",
+    "label": "Label",
+    "release": "Release",
+    "price": "Price",
+    "add-favourite": "Add to Favourite",
+    "remove-favourite": "Remove from Favourite",
+    "add-to-playlist": "Add to Playlist",
+    "choose-playlist": "Choose Playlist"
+  },
+  "favourites": {
+    "title": "Favourites"
+  },
+  "playlists": {
+    "title": "Playlists",
+    "create-playlist": "Create playlist",
+    "create-new": "Create first a new playlist in the Playlists section",
+    "playlist-name": "Playlist Name",
+    "select-least": "Select at least",
+    "select-more": "Select more",
+    "songs": "songs",
+    "delete": "Delete"
+  },
+  "access-denied": {
+    "message": "You must login first",
+    "button1": "Go to login Page",
+    "button2": "Go to home Page"
+  },
+  "not-found": {
+    "message": "This page does not exist",
+    "button2": "Go to home Page"
+  }
+}

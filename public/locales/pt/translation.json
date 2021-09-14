@@ -1,0 +1,88 @@
+{
+  "title": "Seu player favorito",
+  "loading": "Carregando",
+  "sidebar": {
+    "home": "Início",
+    "favourites": "Favoritos",
+    "playlists": "Listas",
+    "settings": "Configurações"
+  },
+  "header": {
+    "signin": "Cadastrar",
+    "login": "Entrar"
+  },
+  "home": {
+    "title": "Início",
+    "searchbar": "Procurar música ou artista",
+    "show-more-button": "Mostrar mais"
+  },
+  "login": {
+    "title": "Entrar",
+    "email": "email",
+    "password": "senha",
+    "submit": "Enviar"
+  },
+  "signin": {
+    "title": "Increver-se",
+    "email": "email",
+    "confirm-email": "confirmar email",
+    "password": "senha",
+    "confirm-password": "confirmar senha",
+    "password-hint": "deve incluir min 6. carachteres incluindo letras e números",
+    "submit": "Enviar",
+    "date-of-birth": "Data de nascimento",
+    "create": "Criar",
+    "subscribe-header": "Se inscreva no pro",
+    "subscribe-message": "Com uma conta Pro você pode salvar favoritos e criar listas",
+    "subscribe-second-message": "Se você possui um cartão SaltPay a assinatura é grátis",
+    "subscribe-button": "Assinar",
+    "no-button": "Não obrigado",
+    "card-number": "Número do Cartão",
+    "cvv": "cvv",
+    "due-date": "Data de vencimento",
+    "thanks-message": "Obrigado por se inscrever, divirta-se",
+    "go-to-home": "Ir para o início"
+  },
+  "settings": {
+    "title": "Configurações",
+    "choose-currency": "Escolha a moeda",
+    "choose-language": "Escolha o idioma",
+    "sign-out": "Sair",
+    "currency-selected": "Moeda selecionada"
+  },
+  "details": {
+    "song": "Música",
+    "artist": "Artista",
+    "genre": "Estilo",
+    "label": "Gravadora",
+    "release": "Lançamento",
+    "price": "Preço",
+    "add-favourite": "Adicionar aos favoritos",
+    "remove-favourite": "Remover dos favoritos",
+    "add-to-playlist": "Adicionar a uma lista",
+    "choose-playlist": "Escolha uma lista"
+  },
+  "favourites": {
+    "title": "Favoritos"
+  },
+  "playlists": {
+    "title": "Lista",
+    "create-playlist": "Criar lista",
+    "playlist-name": "Nome da lista",
+    "select-least": "Selecione pelo menos",
+    "create-new": "Crie primeiro uma lista na seção Listas",
+
+    "select-more": "Selecionar mais",
+    "songs": "músicas",
+    "delete": "Excluir"
+  },
+  "access-denied": {
+    "message": "Você deve entrar primeiro",
+    "button1": "Ir para login",
+    "button2": "Ir para início"
+  },
+  "not-found": {
+    "message": "Essa página não existe",
+    "button2": "Ir para inicio"
+  }
+}

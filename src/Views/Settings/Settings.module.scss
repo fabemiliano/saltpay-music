@@ -1,0 +1,69 @@
+@import "../../Assets/Stylesheets/styleguide.scss";
+
+.settings {
+  margin-left: 200px;
+  width: 100%;
+  @extend %column-center;
+  .secondary {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+
+    .options {
+      min-width: 250px;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: flex-start;
+      p {
+        font-size: 1.5em;
+        margin: 10px;
+        font-family: "Overpass", sans-serif;
+        cursor: pointer;
+      }
+    }
+    .languages {
+      button {
+        margin: 5px
+      }
+    }
+    .currencies {
+      overflow: scroll;
+      height: 70vh;
+      & > div {
+        cursor: pointer;
+        font-family: 'Overpass', sans-serif;
+      }
+      img {
+        width: 50px;
+        margin: 20px;
+      }
+
+      @extend %row-flex-start;
+      flex-wrap: wrap;
+    }
+  }
+}
+
+
+@media only screen and (max-width: 500px) {
+  .settings {
+    margin-left: 0 !important;
+
+    padding-top: 100px;
+    .options {
+      max-width: 50px !important;
+      min-width: 50px !important;
+      height: 80vh !important;
+
+      p {
+        font-size: 0.75rem !important;
+        text-align: center !important;
+        width: 100%;
+      }
+    }
+  }
+
+}

@@ -1,0 +1,21 @@
+@import "../../Assets/Stylesheets/styleguide.scss";
+
+.login {
+  margin-left: 200px;
+  min-height: 100vh;
+  @extend %column-center;
+  width: 100%;
+  font-family: "Overpass", sans-serif;
+  input {
+    margin: 20px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .login {
+    margin-left: 0px;
+    padding-top: 150px;
+    min-height: 80vh;
+    justify-content: flex-start;
+  }
+}

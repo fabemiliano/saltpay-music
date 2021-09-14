@@ -1,0 +1,43 @@
+@import "../../Assets/Stylesheets/styleguide.scss";
+
+.signin {
+  margin-left: 200px;
+  height: 85vh;
+  min-height: 100vh;
+  @extend %column-center;
+  width: 100%;
+  font-family: "Overpass", sans-serif;
+
+  .buttons {
+    display: flex;
+    button {
+      margin: 10px
+    }
+  }
+  input {
+    margin: 20px;
+  }
+  form {
+    @extend %column-center;
+    p {
+      font-size: 10px;
+    }
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .signin {
+    margin-left: 0px;
+    padding-top: 100px;
+    min-height: 70vh;
+    justify-content: flex-start;
+
+  }
+
+  .thanks {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 85vh;
+  }
+}

@@ -1,0 +1,61 @@
+$black: #000000;
+$white: #ffffff;
+$alert: #f12a12;
+$success: #45ba45;
+$background: rgb(109, 17, 149);
+$gradient-background: linear-gradient(0deg, rgba(109, 17, 149, 1) 0%, rgba(37, 21, 62, 1) 69%);
+$second-gradient: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgb(76, 92, 112) 50%, rgba(252, 69, 173, 1) 100%);
+$third-gradient: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(29,129,253,1) 50%, rgba(252,69,173,1) 100%);
+$fourth-gradient: linear-gradient(to top, #0250c5 0%, #d43f8d 100%);
+$side-bar: #211e2f;
+$purple: purple;
+$orange: orange;
+$light-purple: #b852eb;
+
+
+
+//fonts
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@300&display=swap");
+
+%row-center {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+%row-space-between {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+%column-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+%column-space-between {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+%row-flex-start {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+%column-flex-start {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}

@@ -1,0 +1,41 @@
+@import "../../Assets/Stylesheets/styleguide.scss";
+
+.playlists {
+  margin-left: 200px;
+  width: 100%;
+  min-height: 100vh;
+  @extend %column-flex-start;
+
+  .playlistsCreated {
+    @extend %row-flex-start;
+    width: 100%;
+    margin: 20px;
+    flex-wrap: wrap;
+  }
+
+  .playlistCreated {
+    cursor: pointer;
+    margin: 20px;
+
+    font-family: "Overpass", sans-serif;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .playlists {
+    margin-left: 0 !important;
+    padding-top: 100px;
+    justify-content: flex-start;
+    min-height: 80vh !important;
+
+    & > div {
+      overflow: scroll;
+    }
+    .playlistsCreated {
+      justify-content: space-between;
+      width: auto;
+      height: 50vh;
+      overflow: scroll;
+    }
+  }
+}

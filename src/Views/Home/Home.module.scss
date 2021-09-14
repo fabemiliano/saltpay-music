@@ -1,0 +1,54 @@
+.home {
+  padding-left: 200px;
+  width: 100%;
+
+  button {
+    margin-bottom: 20px;
+  }
+}
+
+.container {
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(auto-fill, 200px);
+  justify-content: space-between;
+
+  .box {
+    width: 150px;
+    margin: 20px;
+    transform: scale(1);
+    transition: transform 0.5s;
+    font-family: "Overpass", sans-serif;
+    &:hover {
+      transform: scale(1.1);
+    }
+
+    cursor: pointer;
+
+    img {
+      border-radius: 50%;
+    }
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .home {
+    padding-left: 0 !important;
+    overflow: hidden;
+    padding-top: 100px;
+  }
+  .container {
+    display: flex;
+    width: 100%;
+    overflow: scroll !important;
+    width: 100%;
+    flex-wrap: nowrap;
+    .box {
+      min-width: 200px;
+      margin: 10px;
+      img {
+        width: 200px;
+      }
+    }
+  }
+}
